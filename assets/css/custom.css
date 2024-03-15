@@ -1,0 +1,11 @@
+/* Increase the default font size */
+header nav div a {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 30pt;
+  font-style: normal;
+}
+
+header nav div a span.logo {
+  color: red;
+}

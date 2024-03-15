@@ -1,0 +1,16 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+baseURL = "http:/tectino.github.io/tectino.com/"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 0
+
+theme = "congo"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
